@@ -1,0 +1,76 @@
+
+<div style="display: flex; margin-left: 2rem">
+  <div>
+    <p-card header="Spørgeramme til Stressindikator">
+      <h3>Instruktion:</h3>
+      <p class="m-0">
+        De kommende spørgsmål fokuserer på, hvordan du har haft det igennem den sidste måned.
+        Mange spørgsmål handler om, hvordan du har haft det på arbejdet. Hvis du er sygemeldt, må du
+        svare så godt du kan, pba hvordan du havde det op til sygemeldingen.   </p>
+    </p-card>
+
+<p-carousel #questionCarosel [value]="questions"
+            [numVisible]="1"
+            [numScroll]="1"
+            [showNavigators]="false"
+            orientation="vertical" verticalViewPortHeight="300px" >
+  <ng-template pTemplate="header">
+    <p>Spørgsmål besvaret</p>
+  <div>
+      <p-progressBar [value]="100*questionsAnswered/getQuestionSize()">
+      <ng-template pTemplate="content" let-value>
+        <span>{{questionsAnswered}}/{{getQuestionSize()}}</span>
+      </ng-template>
+    </p-progressBar>
+  </div>
+
+  </ng-template><ng-template let-question pTemplate="item">
+    <div class="question-item" style="height: 280px;">
+      <div class="question-item-content">
+        <div class="mb-3">
+          <div *ngIf="question.questionNumber<18" style="margin: 0.5rem">Jeg har inden for den seneste måned…</div>
+          <div style="padding: 1rem; background-color: gainsboro "> <p-badge [value]="question.questionNumber"></p-badge><span style="margin-left: 1rem">{{question.questionText}}</span></div>
+          <div class="card flex  p-2">
+            <div class="flex flex-column">
+              <div *ngFor="let answer of question.questionAnswers" class="field-checkbox " >
+                <p-radioButton [inputId]="answer.answerText" name="answer" [value]="answer"
+                               [(ngModel)]="question.selectedAnswer"
+                               (onClick)="summarizeAnswers(questionCarosel)"
+                ></p-radioButton>
+                <label [for]="answer.answerNumber" class="ml-1">  {{ answer.answerText }}</label>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template pTemplate="footer">
+  </ng-template>
+</p-carousel>
+  </div>
+</div>
+
+
+
+
+<div class="flex flex-row gap-4">
+  <p-card class="flex-1 gap-2">
+    <span style="display:inline-block;min-width: 120px; ">Tempereret</span>  : {{level0}}
+  </p-card>
+  <p-card class="flex-1">
+    <span style="display:inline-block;min-width: 120px; ">Opvarmet</span>  : {{level1}}
+  </p-card>
+  <p-card class="flex-1">
+    <span style="display:inline-block;min-width: 120px; ">Overophedet</span>  : {{level2}}
+  </p-card>
+  <p-card class="flex-1">
+    <span style="display:inline-block;min-width: 120px; ">Nedsmeltet</span>  : {{level3}}
+  </p-card>
+  <p-card class="flex-1">
+    <span style="display:inline-block;min-width: 120px; ">Udbrændt</span>  : {{level4}}
+  </p-card>
+
+</div>

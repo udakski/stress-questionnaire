@@ -1,0 +1,565 @@
+
+[
+    {"questionNumber": 1,
+      "questionText": "Haft overblik over mit arbejde og været i stand til at prioritere og planlægge mine opgaver",
+      "questionAnswers": [
+        {
+          "answerNumber":1,
+          "answerText":"Hele tiden",
+          "answerValues":[1,0,0,0,0]
+        },
+        {
+          "answerNumber":2,
+          "answerText":"Ofte",
+          "answerValues":[0,1,0,0,0]
+        },
+        {
+          "answerNumber":3,
+          "answerText":"Noget af tiden",
+          "answerValues":[0,0,1,0,0]
+        },
+        {
+          "answerNumber":4,
+          "answerText":"Sjældent",
+          "answerValues":[0,0,0,1,0]
+        },
+        {
+          "answerNumber":5,
+          "answerText":"Aldrig",
+          "answerValues":[0,0,0,0,1]
+        }
+      ]
+
+    },
+  {"questionNumber": 2,
+    "questionText": "Følt mig kompetent til at løse mine arbejdsopgaver",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[0,0,0,0,1]
+      }
+    ]
+
+  },
+
+  {"questionNumber": 3,
+    "questionText": "Nået mine arbejdsopgaver inden for aftalt arbejdstid og ikke behøvet at arbejde over",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[0,0,0,0,1]
+      }
+    ]
+  },
+
+  {"questionNumber": 4,
+    "questionText": "Haft mulighed for at holde pauser i løbet af arbejdsdagen",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Alle dage",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"De fleste dage",
+        "answerValues":[1,1,0,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Halvdelen af dagene",
+        "answerValues":[0,1,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[0,0,0,0,1]
+      }
+    ]
+  },
+  {"questionNumber": 5,
+    "questionText": "Haft vanskeligt ved at overskue min kalender og indbakke",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,1,1,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 6,
+    "questionText": "Været irritabel og utålmodig",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 7,
+    "questionText": "Haft besvær med at falde i søvn eller sove om natten",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 8,
+    "questionText": "Bekymret mig om mit arbejde, og hvor galt det kan gå",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+  {"questionNumber": 9,
+    "questionText": "Haft svært ved at tage beslutninger på mit arbejde",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,0,0,1]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 10,
+    "questionText": "Haft vanskeligt ved at løse arbejdsopgaver, som tidligere ikke har voldt mig problemer",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,0,0,1]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+  {"questionNumber": 11,
+    "questionText": "Følt mig hektisk og fortravlet og haft vanskeligt ved at slappe af",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,1,1,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,1,1,1,1]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,1,1,1,1]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+  {"questionNumber": 12,
+    "questionText": "Haft besvær med at koncentrere mig",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,0,0,1]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 13,
+    "questionText": "Kunnet levere en kvalitet i arbejdet, som jeg er tilfreds med",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[1,0,0,0,0]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[0,0,0,0,1]
+      }
+    ]
+  }
+,
+  {"questionNumber": 14,
+    "questionText": "Været mere glemsom og lavet flere fejl, end jeg plejer",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Ofte",
+        "answerValues":[0,0,0,0,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Sjældent",
+        "answerValues":[1,1,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 15,
+    "questionText": "Følt mig udmattet og har haft vanskeligt ved at tage initiativ",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,0,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[1,1,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,1,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 16,
+    "questionText": "Nedprioriteret aktiviteter, som ellers plejer at give mig energi og glæde (fx motion, socialeaktiviteter, fritidsinteresser)",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 17,
+    "questionText": "Følt mig opgivende og haft svært ved at se, hvordan min situation kan ændre sig",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Hele tiden",
+        "answerValues":[0,0,0,0,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Ofte",
+        "answerValues":[0,0,0,1,0]
+      },
+      {
+        "answerNumber":3,
+        "answerText":"Noget af tiden",
+        "answerValues":[0,0,1,0,0]
+      },
+      {
+        "answerNumber":4,
+        "answerText":"Sjældent",
+        "answerValues":[0,1,0,0,0]
+      },
+      {
+        "answerNumber":5,
+        "answerText":"Aldrig",
+        "answerValues":[1,0,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 18,
+    "questionText": "Jeg har inden for de seneste tre måneder haft flere sygedage, end jeg plejer",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Ja",
+        "answerValues":[0,0,1,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Nej",
+        "answerValues":[1,1,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 19,
+    "questionText": "Jeg har inden for de seneste tre måneder haft flere fysiske symptomer end jeg plejer (fx\nmavepine, hovedpine, muskel-ledsmerter, synsforstyrrelser)",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Ja",
+        "answerValues":[0,0,1,1,1]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Nej",
+        "answerValues":[1,1,0,0,0]
+      }
+    ]
+  },
+
+  {"questionNumber": 20,
+    "questionText": "Jeg er pt. sygemeldt på grund af stress, mistrivsel eller overbelastning",
+    "questionAnswers": [
+      {
+        "answerNumber":1,
+        "answerText":"Ja",
+        "answerValues":[0,0,0,0,20]
+      },
+      {
+        "answerNumber":2,
+        "answerText":"Nej",
+        "answerValues":[1,1,1,1,0]
+      }
+    ]
+  }
+
+]
